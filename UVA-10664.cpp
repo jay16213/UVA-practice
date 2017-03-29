@@ -1,10 +1,4 @@
-#include <algorithm>
-#include <iostream>
-#include <cstdlib>
-#include <sstream>
-#include <string>
-#include <cstdio>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,7 +8,6 @@ int main()
     scanf("%d%c", &testCase, &c);
     while(testCase--)
     {
-        bool ans = false;
         string s;
         int input, n = 0;
         vector<int> suitCase;
